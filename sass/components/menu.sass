@@ -1,11 +1,11 @@
 @import "../utilities/mixins"
 
 $menu-item-color: $text !default
-$menu-item-radius: $radius-small !default
+$menu-item-radius: $radius-large !default
 $menu-item-hover-color: $text-strong !default
 $menu-item-hover-background-color: $background !default
-$menu-item-active-color: $link-invert !default
-$menu-item-active-background-color: $link !default
+$menu-item-active-color: $link-hover !default
+$menu-item-active-background-color: $link-light !default
 
 $menu-list-border-left: 1px solid $border !default
 $menu-list-line-height: 1.25 !default
@@ -35,6 +35,7 @@ $menu-label-spacing: 1em !default
     color: $menu-item-color
     display: block
     padding: $menu-list-link-padding
+    margin: $menu-list-link-padding
     &:hover
       background-color: $menu-item-hover-background-color
       color: $menu-item-hover-color
