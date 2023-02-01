@@ -161,6 +161,16 @@ body
 .navbar-menu
   display: none
 
+.navbar-item a,
+.footer-navs a,
+  color: $navbar-item-color
+  cursor: pointer
+  &:focus,
+  &:focus-within,
+  &:hover,
+  &.is-active
+    color: $navbar-item-hover-color
+
 .navbar-item,
 .navbar-link
   color: $navbar-item-color

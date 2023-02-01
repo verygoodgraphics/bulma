@@ -73,22 +73,21 @@ $pre-background: $background !default
 
 // Link colors
 
-$link: $grey-darker !default
+$link: $vggblue !default
+$link-invert: findColorInvert($link) !default
+$link-light: findLightColor($link) !default
+$link-dark: findDarkColor($link) !default
 
 $link-visited: $purple !default
 
-$link-hover: $vggblue !default
+$link-hover: $link-dark !default
 $link-hover-border: $grey-light !default
 
 $link-focus: $grey-darker !default
 $link-focus-border: $vggblue !default
 
-$link-active: $grey-darker !default
+$link-active: $link-light !default
 $link-active-border: $grey-dark !default
-
-$link-invert: findColorInvert($link-hover) !default
-$link-light: findLightColor($link-hover) !default
-$link-dark: findDarkColor($link-hover) !default
 
 // Typography
 
