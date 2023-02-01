@@ -516,7 +516,7 @@ a.box:active {
 
 .button:hover, .button.is-hovered {
   border-color: #b5b5b5;
-  color: #005ec2;
+  color: #363636;
 }
 
 .button:focus, .button.is-focused {
